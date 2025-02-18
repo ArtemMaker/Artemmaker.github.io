@@ -21903,13 +21903,14 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.Wait,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.Text.prototype.acts.SetText,
+	cr.system_object.prototype.exps["int"],
 	cr.plugins_.Sprite.prototype.acts.SetPos,
+	cr.plugins_.Sprite.prototype.acts.SetOpacity,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
 	cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
-	cr.system_object.prototype.exps["int"],
 	cr.system_object.prototype.acts.SaveState,
 	cr.system_object.prototype.acts.LoadState,
-	cr.system_object.prototype.cnds.Every
+	cr.system_object.prototype.cnds.Every,
+	cr.system_object.prototype.cnds.TriggerOnce
 ];};
-
